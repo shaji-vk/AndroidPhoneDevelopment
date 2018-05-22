@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblname"
+        android:text="Name:"
+        android:padding="5dip"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblname"
+        android:text="Name Value:"
+        android:id="@+id/lblnamevalue"
+        android:padding="5dip"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbldob"
+        android:layout_below="@+id/lblname"
+        android:text="Date Of Birth:"
+        android:padding="5dip"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lbldob"
+        android:layout_alignBaseline="@+id/lbldob"
+        android:text="Dob Value:"
+        android:padding="5dip"
+        android:id="@+id/lbldobvalue"/>
+
+</RelativeLayout>
